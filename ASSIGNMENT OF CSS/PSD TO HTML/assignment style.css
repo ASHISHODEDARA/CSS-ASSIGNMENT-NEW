@@ -1,0 +1,505 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    opacity: 0.7;
+    
+}
+
+a:hover{
+    border: darkblue 4px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.log2{
+    border: 1px solid rgba(0, 0, 255, 0.287);
+    padding: 8px;
+    background-color: rgba(0, 0, 255, 0.287);
+    color: darkblue;  
+}
+.team{
+  font-family: 'Josefin Sans', sans-serif;;
+  font-size: 24px;
+}
+.team:hover{
+    border: darkblue 4px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.middle{    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 80px; 
+   margin-right: 30px;
+}
+
+.child1{
+   border: 1px solid #81C43B;
+   background-color: #81C43B;
+   border-radius: 100px;
+   color: #FFFFFF;
+}
+
+.child2{
+    border: 1px solid #F2F9EB;
+    background-color: #F2F9EB;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #35414B;
+    font-size: 55px;
+    margin-top: 20px;
+    font-family: inter;
+}
+.main3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #35414B;
+    font-family: inter;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.child3 input{
+    width: 200px;
+    padding: 8px; 
+}
+.child4{
+    border: 1px solid #794CFF;
+    background-color: #794CFF;
+    color:#FFFFFF;
+    padding: 8px;
+}
+.img1{
+    display: flex;
+
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.line{
+    margin-top: 20px;
+    color: #4E5A65;
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30PX;
+}
+.border1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.paragraph{
+    flex-wrap: wrap;
+    font-family: inter;
+    font-size: 25px;
+}
+.graph1{
+    
+}
+.graph2{
+    margin-top: 25px;
+}
+.graph3{
+    margin-top: 25px;
+}
+.graph4{
+    margin-top: 25px;
+}
+.paragraph2{
+    font-family: inter;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.child6{
+    font-size: 45px;
+    margin-top: 80px;
+    font-weight: 600px;
+}
+
+.parent1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.teamA{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.team1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.coll{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.coll1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.lear{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.lear1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.parent2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.mess{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.mess1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.enging{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.enging1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.manager{
+    margin-top: 20px;
+    font-family: inter;
+    font-size: 18px;
+}
+.manager1{
+    margin-top: 10px;
+    font-family: inter;
+    font-size: 16px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    border: 1px solid #FBFAFE;
+    background-color: #FBFAFE;
+    height: 500px;
+    padding-top: 80px;
+}
+.work{
+    font-family: inter;
+    font-size: 40px;
+    color: #35414B;
+}
+.since{
+    font-family: inter;
+    font-size: 16px;
+    color: #4E5A65;
+}
+.get1{
+    margin-top: 30px;
+    font-family: inter;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #796EFF;
+    background-color: #796EFF;
+    height: 38px;
+    width: 140px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+.child7{
+    display: flex;
+    justify-content: center;
+    color: #35414B;
+    font-size: 40px;
+    font-family: inter;
+}
+.child8{
+        display: flex;
+        justify-content: center;
+        color: #35414B;
+        font-size: 18px;
+        font-family: inter;
+        margin-top: 50px;
+}
+
+.xyz{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.abc{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+.last{
+    border: #794CFF solid 1px;
+    height: 268px;  
+    width: 1000px;
+    background-color: #794CFF;
+    margin-left: 15% ;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+.last3{
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    padding-top: -30px;
+    padding-right: 50px;
+}
+.employee{
+    font-size: 30px;
+    padding-top: 80px;
+    margin-left: 60px;
+    color: white;
+    
+}
+.foot{
+    border: 1px solid #1D2830;
+    background-color: #1D2830;
+    height: 440px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.install{
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-family: inter;
+}
+.support{
+    color: #FFFFFF;
+    font-family: inter;
+    margin-top: 50px;
+}
+
+.company{
+    color: #FFFFFF;
+    font-family: inter;
+    margin-top: 50px;
+}
+.a1{
+    margin-top: 15px;
+}
+.a2{
+    margin-top: 15px;
+}
+.a3{
+    margin-top: 15px;
+}
+.a4{
+    margin-top: 15px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a1{
+    display: block;
+}
+.a2{
+    display: block;
+}
+.a3{
+    display: block;
+}
+.h4{
+    display: block;
+}
+.a4{
+    display: block;
+}
+
+
+@media  screen and (max-width : 720px) {
+
+     .foot {
+        height: fit-content;
+            width: 100%;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+                 margin-top: 100px;
+         }
+     .company {
+      display: flex;
+      margin-right: 140px;
+      flex-direction: column;
+      gap: 10px;
+                 }
+            
+       .a1{
+        display: none;
+       }          
+       .a2{
+        display: none;
+       }
+       .a3{
+        display: none;
+       }
+       .a4{
+        display: none;
+       }
+        
+       .wd1{
+        margin-right: 240px;
+       }
+       .wd{
+        margin-right: 220px;
+       }
+       .wd2{
+        margin-right: 260px;
+       }
+           .last3 {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        flex-direction: column;    
+           }
+           .last{
+         border: #794CFF solid 1px;
+          height: 358px;
+          margin-left: -10px;   
+          width: 400px;
+          background-color: #794CFF;
+          margin-top: 100px;
+         border-radius: 16px;
+}
+.employee {
+    font-size: 40px;
+    padding-top: 60px; 
+    color: white;
+    padding-left:40px ;
+
+}
+.gpay{
+    padding-left: 280px;
+    height: 50px;
+    padding-top: 10px;
+    width: 120px;
+}
+.app{
+    padding-left: 280px;
+    height: 50px;
+    width: 120px;
+}
+.last {
+    border: #794CFF solid 1px;
+    height: 350px;
+    width: 100%;
+    background-color: #794CFF;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+    .microsoft{
+        display: none;
+    }   
+    .microsoft1{
+        display: none;
+    }
+    .airbnb{
+        display: none;
+    }
+    .airnb1{
+        display: none;
+    }
+    .google1{
+        margin-top: 50px;
+        margin-right: 180px;
+    }
+    .google{
+        margin-right: 70px;
+    }
+    .us{
+        margin-top: 200px;
+    }
+    .child8 {
+        display: flex;
+        justify-content: center;
+        color: #35414B;
+        font-size: 18px;
+        font-family: inter;
+        margin-right: 80PX;
+        margin-top: 50px;
+    }
+        .child7 {
+       display: flex;
+      justify-content: center;
+       color: #35414B;
+       font-size: 40px;
+       margin-right: 30px;
+       margin-top: 20px;
+       font-family: inter;
+        }
+        .group26{
+            margin-top: 60px;
+            margin-right: 5px;
+            width: 100%;
+        }
+                .get1 {
+         font-family: inter;
+          margin-top: 30px;
+      font-size: 16px;
+        color: #FFFFFF;
+        border: 1px solid #796EFF;
+        background-color: #796EFF;
+        height: 38px;
+       width: 140px;
+        
+                }
+}
+
+
+
